@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.betterdoctor.com/2016-03-01/doctors?name=Emily%20Huang&user_key=6f2b25f41119e4f726b53f349b8d0542
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 04 Oct 2016 18:38:13 GMT
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      X-Powered-By:
+      - Express
+      Content-Length:
+      - '3418'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "{\"meta\":{\"data_type\":\"array\",\"item_type\":\"Doctor\",\"total\":2,\"count\":2,\"skip\":0,\"limit\":10},\"data\":[{\"practices\":[{\"lat\":47.881833,\"lon\":-122.206808,\"uid\":\"366a879985ee9ddfbd12f96a328353fb\",\"npi\":null,\"name\":\"Emily
+        Huang, MD\",\"email\":null,\"insurance_uids\":[\"bridgespan-bridgespanhix\",\"premerabcbs-premeraheritagesignaturehix\",\"premerabcbs-lifewiseconnecthix\",\"medicare-medicare\",\"medicaid-medicaid\",\"gwhcigna-greatwestppo\"],\"visit_address\":{\"city\":\"Everett\",\"lat\":47.881833,\"lon\":-122.206808,\"state\":\"WA\",\"state_long\":\"Washington\",\"street\":\"12728
+        Bothell Everett Hwy\",\"street2\":\"Ste 200\",\"zip\":\"98208\"},\"office_hours\":[],\"phones\":[{\"number\":\"4252252700\",\"type\":\"landline\"}],\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"doctors_pagination_url\":\"https://api.betterdoctor.com/2016-03-01/practices/366a879985ee9ddfbd12f96a328353fb/doctors\"},{\"lat\":47.97675,\"lon\":-122.21677,\"uid\":\"600ddbd9dacdfc441d404f6955ecb446\",\"npi\":null,\"name\":\"Emily
+        Huang, MD\",\"email\":null,\"insurance_uids\":[\"cigna-cignaopenaccessplus\",\"cigna-cignappo\",\"cigna-cignahmo\",\"gwhcigna-greatwestppo\"],\"visit_address\":{\"city\":\"Everett\",\"lat\":47.97675,\"lon\":-122.21677,\"state\":\"WA\",\"state_long\":\"Washington\",\"street\":\"1005
+        Pacific Ave\",\"zip\":\"98201\"},\"office_hours\":[],\"phones\":[{\"number\":\"4252586801\",\"type\":\"landline\"}],\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"doctors_pagination_url\":\"https://api.betterdoctor.com/2016-03-01/practices/600ddbd9dacdfc441d404f6955ecb446/doctors\"},{\"lat\":47.99929,\"lon\":-122.20573,\"uid\":\"62a6784c12d1e63f38284a10a3eedf8f\",\"npi\":null,\"name\":\"WESTERN
+        WASHINGTON MEDICAL GROUP\",\"email\":null,\"insurance_uids\":[\"cigna-cignappo\",\"cigna-cignaopenaccessplus\",\"aetna-aetnamanagedchoiceposopenaccess\",\"aetna-aetnachoiceposii\",\"firstchoice-firstchoice\",\"aetna-aetnasignatureadministratorsppo\",\"bcbsbluecard-bcbsbluecardppo\",\"cigna-cignahmo\",\"regenceblueshieldofwashinton-regencewapreferredprovidernetwork\",\"odshealthplan-odsnetwork\",\"premerabluecross-premeraheritageheritageplus1\",\"premerabluecross-premeralifewiseconnect\",\"gwhcigna-greatwestppo\",\"unitedhealthcare-uhcchoicepluspos\",\"unitedhealthcare-uhcnavigatehmo\",\"unitedhealthcare-uhcnavigatepos\",\"unitedhealthcare-uhcoptionsppo\",\"grouphealthcooperative-grouphealthcoopalliantplusconnect\",\"grouphealthcooperative-grouphealthcoopcore\"],\"visit_address\":{\"city\":\"Everett\",\"lat\":47.99929,\"lon\":-122.20573,\"state\":\"WA\",\"state_long\":\"Washington\",\"street\":\"1330
+        Rockefeller Ave\",\"street2\":\"Ste 450\",\"zip\":\"98201\"},\"office_hours\":[],\"phones\":[{\"number\":\"4252581944\",\"type\":\"fax\"},{\"number\":\"4252586801\",\"type\":\"landline\"}],\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"doctors_pagination_url\":\"https://api.betterdoctor.com/2016-03-01/practices/62a6784c12d1e63f38284a10a3eedf8f/doctors\"},{\"lat\":47.97675,\"lon\":-122.21677,\"uid\":\"ba6616c25fbeb1707079292d1a026ae9\",\"npi\":null,\"name\":\"Puget
+        Sound Kidney Centers\",\"email\":null,\"insurance_uids\":[\"cigna-cignaopenaccessplus\",\"cigna-cignappo\",\"cigna-cignahmo\",\"gwhcigna-greatwestppo\"],\"visit_address\":{\"city\":\"Everett\",\"lat\":47.97675,\"lon\":-122.21677,\"state\":\"WA\",\"state_long\":\"Washington\",\"street\":\"1005
+        Pacific Ave\",\"zip\":\"98201\"},\"office_hours\":[],\"phones\":[{\"number\":\"4252595195\",\"type\":\"business_landline\"},{\"number\":\"4252594890\",\"type\":\"business_fax\"},{\"number\":\"4252595195\",\"type\":\"landline\"},{\"number\":\"4252594890\",\"type\":\"fax\"}],\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"doctors_pagination_url\":\"https://api.betterdoctor.com/2016-03-01/practices/ba6616c25fbeb1707079292d1a026ae9/doctors\"}],\"educations\":[{\"school\":\"Thos
+        Jefferson University Hospital\",\"graduation_year\":null,\"degree\":\"residency\"}],\"profile\":{\"first_name\":\"Emily\",\"middle_name\":null,\"last_name\":\"Huang\",\"slug\":\"emily-huang\",\"title\":\"MD\",\"image_url\":\"https://asset1.betterdoctor.com/assets/general_doctor_female.png\",\"gender\":\"female\",\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"bio\":\"Dr.
+        Emily Huang, MD practices medicine at Everett, Washington, specializing in
+        internal medicine and nephrology.\\n\\nDr. Huang is licensed to see patients
+        in Washington.\\n\\nDr. Huang has successfully passed a background check including
+        a medical license verification (active) and screening for malpractice history
+        (none found).\"},\"ratings\":[],\"insurances\":[{\"insurance_plan\":{\"uid\":\"aetnachoiceposii\",\"name\":\"Aetna
+        Choice POS II\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"aetna\",\"name\":\"Aetna\"}},{\"insurance_plan\":{\"uid\":\"aetnamanagedchoiceposopenaccess\",\"name\":\"Aetna
+        Managed Choice POS Open Access\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"aetna\",\"name\":\"Aetna\"}},{\"insurance_plan\":{\"uid\":\"aetnasignatureadministratorsppo\",\"name\":\"Aetna
+        Signature Administrators PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"aetna\",\"name\":\"Aetna\"}},{\"insurance_plan\":{\"uid\":\"bcbsbluecardppo\",\"name\":\"BCBS
+        Blue Card PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"bcbsbluecard\",\"name\":\"BCBS
+        Blue Card\"}},{\"insurance_plan\":{\"uid\":\"cignahmo\",\"name\":\"CIGNA HMO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"cigna\",\"name\":\"Cigna\"}},{\"insurance_plan\":{\"uid\":\"cignaopenaccessplus\",\"name\":\"CIGNA
+        Open Access Plus\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"cigna\",\"name\":\"Cigna\"}},{\"insurance_plan\":{\"uid\":\"cignappo\",\"name\":\"CIGNA
+        PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"cigna\",\"name\":\"Cigna\"}},{\"insurance_plan\":{\"uid\":\"firstchoice\",\"name\":\"First
+        Choice\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"firstchoice\",\"name\":\"First
+        Choice\"}},{\"insurance_plan\":{\"uid\":\"grouphealthcoopalliantplusconnect\",\"name\":\"Group
+        Health Coop Alliant PlusConnect\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"grouphealthcooperative\",\"name\":\"Group
+        Health Cooperative\"}},{\"insurance_plan\":{\"uid\":\"grouphealthcoopcore\",\"name\":\"Group
+        Health Coop Core\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"grouphealthcooperative\",\"name\":\"Group
+        Health Cooperative\"}},{\"insurance_plan\":{\"uid\":\"greatwestppo\",\"name\":\"Great
+        West PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"gwhcigna\",\"name\":\"GWH-Cigna\"}},{\"insurance_plan\":{\"uid\":\"odsnetwork\",\"name\":\"ODS
+        Network\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"odshealthplan\",\"name\":\"ODS
+        Health Plan\"}},{\"insurance_plan\":{\"uid\":\"premeraheritageheritageplus1\",\"name\":\"Premera
+        Heritage  Heritage Plus 1\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"premerabluecross\",\"name\":\"Premera
+        Blue Cross\"}},{\"insurance_plan\":{\"uid\":\"premeralifewiseconnect\",\"name\":\"Premera
+        LifeWise Connect\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"premerabluecross\",\"name\":\"Premera
+        Blue Cross\"}},{\"insurance_plan\":{\"uid\":\"regencewapreferredprovidernetwork\",\"name\":\"Regence
+        WA Preferred Provider Network\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"regenceblueshieldofwashinton\",\"name\":\"Regence
+        Blue Shield of Washinton\"}},{\"insurance_plan\":{\"uid\":\"uhcchoicepluspos\",\"name\":\"UHC
+        Choice Plus POS\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"unitedhealthcare\",\"name\":\"United
+        Healthcare\"}},{\"insurance_plan\":{\"uid\":\"uhcnavigatehmo\",\"name\":\"UHC
+        Navigate HMO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"unitedhealthcare\",\"name\":\"United
+        Healthcare\"}},{\"insurance_plan\":{\"uid\":\"uhcnavigatepos\",\"name\":\"UHC
+        Navigate POS\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"unitedhealthcare\",\"name\":\"United
+        Healthcare\"}},{\"insurance_plan\":{\"uid\":\"uhcoptionsppo\",\"name\":\"UHC
+        Options PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"unitedhealthcare\",\"name\":\"United
+        Healthcare\"}}],\"specialties\":[{\"uid\":\"nephrologist\",\"name\":\"Nephrology\",\"description\":\"Specializes
+        in patients with kidney disorders.\",\"category\":\"medical\",\"actor\":\"Nephrologist\",\"actors\":\"Nephrologists\"}],\"hospital_affiliations\":[],\"group_affiliations\":[],\"uid\":\"fc8f7175514db8a1d9e7d81854a5e454\",\"npi\":\"1013957661\"},{\"practices\":[{\"lat\":37.31342,\"lon\":-121.93421,\"uid\":\"6ed8782ef873a4c7580a0370967a19f5\",\"npi\":null,\"name\":\"Roberta
+        Wang, MD\",\"email\":null,\"insurance_uids\":[\"bluecrosscalifornia-bluecrosscaselectppo\",\"bcbsbluecard-bcbsbluecardppo\",\"bluecrosscalifornia-bluecrosscapowerselecthmo\",\"cigna-cignahmo\",\"bluecrosscalifornia-bluecrosscapathwayxtiereddirectaccess\",\"multiplan-multiplanppo\",\"bluecrosscalifornia-bluecrosscapathwayxppodirectaccess\",\"bluecrosscalifornia-bluecrosscaselectplushmo\",\"bluecrosscalifornia-bluecrosscacaliforniacarehmo\",\"bluecrosscalifornia-bluecrosscaadvantageppopreferreddirectaccessplus\",\"bluecrosscalifornia-bluecrosscappo\",\"cigna-cignappo\",\"cigna-cignaopenaccessplus\",\"multiplan-phcsppokaiser\",\"multiplan-phcsppo\",\"cigna-cignalocalplus\",\"healthnet-healthnetcaindividualfamilyppo\",\"aetna-aetnamanagedchoiceposopenaccess\",\"healthnet-healthnetcacoveredcaliforniapposmallgroup\",\"aetna-aetnachoiceposii\",\"healthnet-healthnetcalargegroupppo\",\"aetna-aetnasavingsplusofca\",\"blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix\",\"anthem-blueviewvision\",\"blueshieldofcalifornia-blueshieldcabasicepo\",\"blueshieldofcalifornia-blueshieldcabasicppo\",\"blueshieldofcalifornia-blueshieldcappo\",\"blueshieldofcalifornia-bscaplatinum90epo\",\"premerabluecross-premeraheritagesignature\",\"gwhcigna-greatwestppo\",\"unitedhealthcare-uhcchoicepluspos\",\"unitedhealthcare-uhcnavigatehmo\",\"unitedhealthcare-uhcnavigatepos\",\"unitedhealthcare-uhcoptionsppo\",\"firsthealthcoventryhealthcare-firsthealthppo\"],\"visit_address\":{\"city\":\"San
+        Jose\",\"lat\":37.31342,\"lon\":-121.93421,\"state\":\"CA\",\"state_long\":\"California\",\"street\":\"751
+        S Bascom Ave\",\"zip\":\"95128\"},\"office_hours\":[],\"phones\":[{\"number\":\"4088855000\",\"type\":\"landline\"}],\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"doctors_pagination_url\":\"https://api.betterdoctor.com/2016-03-01/practices/6ed8782ef873a4c7580a0370967a19f5/doctors\"},{\"lat\":37.313427,\"lon\":-121.934186,\"uid\":\"1a8519bdf7307fae9a18e5ad2eec3a37\",\"npi\":null,\"name\":\"Santa
+        Clara Valley Medical Center\",\"email\":null,\"insurance_uids\":[\"multiplan-phcsppo\",\"cigna-cignaopenaccessplus\",\"bluecrosscalifornia-bluecrosscaselectppo\",\"bcbsbluecard-bcbsbluecardppo\",\"bluecrosscalifornia-bluecrosscappo\",\"bluecrosscalifornia-bluecrosscaadvantageppopreferreddirectaccessplus\",\"bluecrosscalifornia-bluecrosscapathwayxppodirectaccess\",\"multiplan-multiplanppo\",\"bluecrosscalifornia-bluecrosscapathwayxtiereddirectaccess\",\"cigna-cignahmo\",\"cigna-cignalocalplus\",\"cigna-cignappo\",\"multiplan-phcsppokaiser\",\"unitedhealthcare-uhcchoicepluspos\",\"unitedhealthcare-uhcnavigatehmo\",\"unitedhealthcare-uhcnavigatepos\",\"unitedhealthcare-uhcoptionsppo\",\"firsthealthcoventryhealthcare-firsthealthppo\"],\"visit_address\":{\"city\":\"San
+        Jose\",\"lat\":37.313427,\"lon\":-121.934186,\"state\":\"CA\",\"state_long\":\"California\",\"street\":\"751
+        S Bascom Ave\",\"zip\":\"95128\"},\"office_hours\":[],\"phones\":[{\"number\":\"4088855000\",\"type\":\"landline\"}],\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"doctors_pagination_url\":\"https://api.betterdoctor.com/2016-03-01/practices/1a8519bdf7307fae9a18e5ad2eec3a37/doctors\"},{\"lat\":37.31342,\"lon\":-121.93421,\"uid\":\"1f0f7f2a68a094ccc8aadafd1335b20c\",\"npi\":null,\"name\":\"Fahd
+        Khan, MD\",\"email\":null,\"insurance_uids\":[\"multiplan-phcsppo\",\"multiplan-phcsppokaiser\",\"multiplan-multiplanppo\",\"bluecrosscalifornia-bluecrosscapathwayxtiereddirectaccess\",\"bluecrosscalifornia-bluecrosscapathwayxppodirectaccess\",\"bcbsbluecard-bcbsbluecardppo\",\"bluecrosscalifornia-bluecrosscaselectppo\",\"bluecrosscalifornia-bluecrosscappo\",\"bluecrosscalifornia-bluecrosscaadvantageppopreferreddirectaccessplus\",\"cigna-cignaopenaccessplus\",\"cigna-cignahmo\",\"cigna-cignalocalplus\",\"cigna-cignappo\",\"aetna-aetnahmodeductibleplancamembersonly\",\"aetna-aetnahmo\",\"aetna-aetnavitalidadpluscaconaetna\",\"aetna-aetnamanagedchoiceposopenaccess\",\"aetna-aetnachoiceposii\",\"aetna-aetnasignatureadministratorsppo\",\"aetna-aetnabasichmo\",\"aetna-aetnasavingsplusofca\",\"healthnet-healthnetcaindividualfamilyppo\",\"healthnet-healthnetcalargegroupppo\",\"healthnet-healthnetcacoveredcaliforniapposmallgroup\",\"bluecrosscalifornia-bluecrosscapowerselecthmo\",\"anthem-blueviewvision\",\"blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix\",\"healthnet-healthnetindividualfamilyppohix\",\"humana-humanahmopremierhix\",\"medicare-medicare\",\"medicaid-medicaid\",\"aetna-aetnamdbronzesilverandgoldhmo\",\"healthnet-hmoexcelcaresilvernetwork\",\"healthnet-hmoexcelcaresilvernetworkmedicarecob\",\"blueshieldofcalifornia-blueshieldcabasicepo\",\"blueshieldofcalifornia-blueshieldcabasicppo\",\"blueshieldofcalifornia-blueshieldcappo\",\"blueshieldofcalifornia-bscaplatinum90epo\",\"premerabluecross-premeraheritagesignature\",\"gwhcigna-greatwestppo\",\"unitedhealthcare-uhcchoicepluspos\",\"unitedhealthcare-uhcnavigatehmo\",\"unitedhealthcare-uhcnavigatepos\",\"unitedhealthcare-uhcoptionsppo\",\"firsthealthcoventryhealthcare-firsthealthppo\"],\"visit_address\":{\"city\":\"San
+        Jose\",\"lat\":37.31342,\"lon\":-121.93421,\"state\":\"CA\",\"state_long\":\"California\",\"street\":\"751
+        S Bascom Ave\",\"zip\":\"95128\"},\"office_hours\":[],\"phones\":[{\"number\":\"4088855000\",\"type\":\"landline\"}],\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"doctors_pagination_url\":\"https://api.betterdoctor.com/2016-03-01/practices/1f0f7f2a68a094ccc8aadafd1335b20c/doctors\"}],\"educations\":[],\"profile\":{\"first_name\":\"Emily\",\"middle_name\":null,\"last_name\":\"Huang\",\"slug\":\"emily-huang-2\",\"title\":\"DO\",\"image_url\":\"https://asset1.betterdoctor.com/assets/general_doctor_female.png\",\"gender\":\"female\",\"languages\":[{\"name\":\"English\",\"code\":\"en\"}],\"bio\":\"Dr.
+        Emily Huang, DO, specialist in physical medicine & rehabilitation, currently
+        sees patients in Vancouver, Washington and San diego, California.\\n\\nDr.
+        Huang is licensed to practice medicine at Virginia.\\n\\nDr. Huang has successfully
+        passed a background check including a medical license verification (active)
+        and screening for malpractice history (none found).\"},\"ratings\":[],\"insurances\":[{\"insurance_plan\":{\"uid\":\"bcbsbluecardppo\",\"name\":\"BCBS
+        Blue Card PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"bcbsbluecard\",\"name\":\"BCBS
+        Blue Card\"}},{\"insurance_plan\":{\"uid\":\"bluecrosscaadvantageppopreferreddirectaccessplus\",\"name\":\"Blue
+        Cross CA Advantage PPO Preferred DirectAccess Plus\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"anthem\",\"name\":\"Anthem\"}},{\"insurance_plan\":{\"uid\":\"bluecrosscapathwayxppodirectaccess\",\"name\":\"Blue
+        Cross CA Pathway X PPO Direct Access\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"anthem\",\"name\":\"Anthem\"}},{\"insurance_plan\":{\"uid\":\"bluecrosscapathwayxtiereddirectaccess\",\"name\":\"Blue
+        Cross CA Pathway X Tiered Direct Access\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"anthem\",\"name\":\"Anthem\"}},{\"insurance_plan\":{\"uid\":\"bluecrosscappo\",\"name\":\"Blue
+        Cross CA PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"anthem\",\"name\":\"Anthem\"}},{\"insurance_plan\":{\"uid\":\"bluecrosscaselectppo\",\"name\":\"Blue
+        Cross CA Select PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"anthem\",\"name\":\"Anthem\"}},{\"insurance_plan\":{\"uid\":\"cignahmo\",\"name\":\"CIGNA
+        HMO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"cigna\",\"name\":\"Cigna\"}},{\"insurance_plan\":{\"uid\":\"cignalocalplus\",\"name\":\"CIGNA
+        LocalPlus\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"cigna\",\"name\":\"Cigna\"}},{\"insurance_plan\":{\"uid\":\"cignaopenaccessplus\",\"name\":\"CIGNA
+        Open Access Plus\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"cigna\",\"name\":\"Cigna\"}},{\"insurance_plan\":{\"uid\":\"cignappo\",\"name\":\"CIGNA
+        PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"cigna\",\"name\":\"Cigna\"}},{\"insurance_plan\":{\"uid\":\"firsthealthppo\",\"name\":\"First
+        Health PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"firsthealthcoventryhealthcare\",\"name\":\"First
+        Health Coventry Healthcare\"}},{\"insurance_plan\":{\"uid\":\"multiplanppo\",\"name\":\"Multiplan
+        PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"multiplan\",\"name\":\"Multiplan\"}},{\"insurance_plan\":{\"uid\":\"phcsppo\",\"name\":\"PHCS
+        PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"multiplan\",\"name\":\"Multiplan\"}},{\"insurance_plan\":{\"uid\":\"phcsppokaiser\",\"name\":\"PHCS
+        PPO - Kaiser\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"multiplan\",\"name\":\"Multiplan\"}},{\"insurance_plan\":{\"uid\":\"uhcchoicepluspos\",\"name\":\"UHC
+        Choice Plus POS\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"unitedhealthcare\",\"name\":\"United
+        Healthcare\"}},{\"insurance_plan\":{\"uid\":\"uhcnavigatehmo\",\"name\":\"UHC
+        Navigate HMO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"unitedhealthcare\",\"name\":\"United
+        Healthcare\"}},{\"insurance_plan\":{\"uid\":\"uhcnavigatepos\",\"name\":\"UHC
+        Navigate POS\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"unitedhealthcare\",\"name\":\"United
+        Healthcare\"}},{\"insurance_plan\":{\"uid\":\"uhcoptionsppo\",\"name\":\"UHC
+        Options PPO\",\"category\":[\"medical\"]},\"insurance_provider\":{\"uid\":\"unitedhealthcare\",\"name\":\"United
+        Healthcare\"}}],\"specialties\":[{\"uid\":\"physiatrist\",\"name\":\"Physical
+        Medicine & Rehabilitation\",\"description\":\"Specializes in treating patients
+        with physical disabilities.\",\"category\":\"medical\",\"actor\":\"Physiatrist\",\"actors\":\"Physiatrists\"}],\"hospital_affiliations\":[],\"group_affiliations\":[],\"uid\":\"d1f6120d4c6e5e9f9bdd4b0591042766\",\"npi\":\"1568511061\"}]}"
+    http_version: 
+  recorded_at: Tue, 04 Oct 2016 18:38:13 GMT
+recorded_with: VCR 3.0.3
