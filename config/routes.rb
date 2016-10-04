@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :doctors, only: [:index]
+      resources :doctors, default: {format: :json}
     end
   end
 
